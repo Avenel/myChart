@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+     version="1.1" baseProfile="full"
+     width="800px" height="400px">
+ 
+<!--Inhalt der Datei -->
+
+<% mx = 200 
+   my = 200
+   rx = 100
+   ry = 50 %>
+   
+<ellipse cx='<%= mx %>' cy='<%= my %>' rx='<%= rx %>' ry='<%= ry %>'style='fill:#EEE;stroke:#000;stroke-width:4'/>
+
+<text x='<%= mx %>' y='<%= my %>' fill='000'>TESS</text>
+
+  
+ 
+</svg>
+

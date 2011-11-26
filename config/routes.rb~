@@ -2,6 +2,6 @@ MyChart::Application.routes.draw do
 
   devise_for :people
 
-  root :to => 'link#index'
+  root :to => "people/sign_up"#'link#index'
 
 end
